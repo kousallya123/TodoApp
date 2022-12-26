@@ -8,6 +8,7 @@ body {
 }
 
 .app {
+  display: flex;
   position: absolute;
   top: 10%;
   left: 50%;
@@ -84,4 +85,32 @@ h2 {
   font-weight: 700;
   font-style: normal;
   color: grey;
+}
+
+.datte{
+  text-align: center;
+}
+
+.activeTask{
+  margin-left: 100px;
+}
+
+.activeTask h1{
+  margin-bottom: 20px;
+}
+
+.activeTask h3{
+  margin-top: 30px;
+}
+
+.activeTaskk{
+  margin-right: 100px;
+}
+
+.activeTask h1{
+  color: green;
+}
+
+.activeTaskk h1{
+  color: red;
 }
